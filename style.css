@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    margin: 12px;
+    font-size: 20px;
+    text-decoration: none;
+ }
+ a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+ }
+ nav{
+   border:2px solid yellow ;
+    padding:16px ; 
+ }
+ table{
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8em;
+ }
+ table th,td{
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+ }
+ td{
+    text-align: center;
+ }
+ tr:nth-child(even){
+  background-color: #f2fafa;  
+ }
+
+ 
+ li{
+    color: hsl(0, 50%, 40%);
+    margin: 30px;
+ }
+ 
+ .form{
+    margin: 40px;
+    padding: 10px;
+    background: black;
+ }
+
+ #title{
+    text-align: center;
+    font-size: 60px;
+ }
+ .fig h1{
+   color: black;
+   display: flex;
+   justify-content: right;
+   
+   
+ }
+ .home-banner{
+    background: url(pictures/pexels-luis-gomes-546819.jpg);
+    height: 400px;
+    background-attachment: fixed;
+ }
+ .about-banner{
+    background: linear-gradient(rgba(22,77,222,0.57), rgba(222,88,99,0.28)),url(pictures/pexels-hitesh-choudhary-879109.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+ }
+ .form-banner{
+   height: 400px;
+   background: rgb(123, 143, 225);
+   position: relative;
+   
+ }
+ .form-banner h2{
+   position: absolute;
+   right: 30%;
+   left: 40%;
+   top: 30%;
+   bottom: 40%;
+   
+ }
+
+ .exercise-banner{
+   background-color: blueviolet;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-size: 30px;
+   
+   
+ }
+ .h{
+   position: absolute;
+   top: 20px;
+   right: 120px;
+   font-size: 60px;
+ }
+
+ .doc h1{
+   color: rgb(255, 180, 81);
+   display: flex;
+   position: relative;  
+ }
+
+ .exercise-banner h1{
+   line-height: 40px;
+   margin: 30px;
+   text-align: center;
+   font-size: 60px;
+ }
+ .bryta-banner{
+   background-color: yellow;
+   height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .tr{
+  background-color: yellow;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+ }
+ /* .web{
+  color: yellow;
+  background-color: black;
+  font-size: 30px;
+  height: 60px;
+  margin: 20px;
+ }
+ .data{
+   margin: 20px;
+ } */
+ .services{
+   display: flex;
+   justify-content: center;
+   height: 400px;
+   align-items: inherit;
+   gap: 30px;
+   background-color: whitesmoke;
+   color: blueviolet;
+   
+   
+   
+ }
+ .card{
+   height: 200px;
+   width: 200px;
+ }
+ p{
+   
+   line-height: 1.2;
+   color: black;
+ }
+ .card img{
+   width: 100%;
+   padding: 20px;
+
+ }
+ .card h3{
+   background-color: whitesmoke;
+   padding: 30px;
+   height: 30px;
+   color: darkblue;
+   text-align: center;
+ }
+ 
+
+.banner{
+  display: flex;
+  height: 600px;
+  background: whitesmoke;
+  gap: 39px;
+}
+.banner-img{
+  position:relative;
+} 
+ .project{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+  
+ }
+ .project-c{
+  line-height: 40px;
+ }
+.project-c h1{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.project-c h2{
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.line{
+  height: 20px;
+  background: yellow;
+  position: absolute;
+}
+.hub{
+  flex: 1;
+  height: 500px;
+  float: left;
+  margin: 10px;
+}
+.hub h1{
+  background: yellow;
+  height: 200px;
+  width: 400px;
+  padding: 50px;
+  font-size: 60px;
+}
+
+.words{
+  flex: 1.7;
+  display: flex;
+  height: 700px;
+  padding: 40px;
+  text-align-last: left;
+  gap: 40px;
+  
+ 
+  
+  
+}
+.words p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.header{
+  background: whitesmoke; 
+}
+/* .coach{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+font-weight: bold;
+text-align-last: left;
+} */
+.mart{
+  text-align-last: left;
+}
+
+
+/* .words h1{ */
+  /* display: flex; */
+  /* text-align: right; */
+  /* top: 30px; */
+
+/* } */
+.flyer-head{
+text-align-last: center;
+background-color: rgb(255, 21, 200);
+text-decoration: white;
+height: 950px;
+}
+.note{
+  text-align-last: left;
+  padding: 50px;
+} 
+.build{
+  margin-top: 16px;
+  position: relative;
+  bottom: 120px;
+  left: 420px;
+  
+}
+.number{
+  background: grey;
+}
+.visit{
+  text-align-last: center;
+}
+.us{
+  text-align: center;
+background: rgb(225, 21,200 );
+width: 150px;
+  }
+
+
+  
+
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+   
+ 
+ 
+ 
+
+
+
+ 
+   
+   
+ 
+
+
+
